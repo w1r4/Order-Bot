@@ -1,39 +1,39 @@
 token = 'input your token'
 provider_token = ''  # @BotFather -> Bot Settings -> Payments
-admin_chat = 0  # token of admin chat
+admin_chat = 0  # admin chat ID
 database_name = 'bot.db'
 
 # menu
 
-menu_descr = """Привет, {}! Выберите блюда из нашего меню"""
+menu_descr = """Hello, {}! Please choose dishes from our menu."""
 
 menu_item_descr = \
-"""Название: *{}*
-Описание: {}
-Цена: {} руб"""
+"""Name: *{}*
+Description: {}
+Price: {} RUB"""
 
 # basket
 
-basket_empty = 'Ваша корзина пуста! Загляните в меню, чтобы выбрать блюда'
+basket_empty = 'Your basket is empty! Check out the menu to select dishes.'
 
 confirm_descr = \
-"""Спасибо, ваш заказ уже готовится! Чтобы забрать заказ, предъявите его номер. Оплатите сейчас через Яндекс.Кассу или при выдаче
-Номер заказа: *{}*
-Вы заказали:"""
+"""Thank you, your order is being prepared! To pick up your order, present its number. You can pay now via Yandex.Kassa or upon collection.
+Order number: *{}*
+You ordered:"""
 
 admin_notification = \
-"""Номер заказа: *{}* {}
-Имя: {}
+"""Order number: *{}* {}
+Name: {}
 ----------------"""
 
 user_notification = \
-"""Заказ номер *{}* {}!"""
+"""Order number *{}* is ready {}!"""
 
 # payments
 
 card_disclaimer = \
-"""Это демо-оплата, деньги не будут списываться. Используйте тестовый номер карты: `4242 4242 4242 4242`. CVV может быть любым"""
+"""This is a demo payment, no actual money will be charged. Use the test card number: `4242 4242 4242 4242`. The CVV can be any three digits."""
 
 checkout_error = \
-"""Пришельцы пытались украсть ваш CVV-код, но мы успехно защитили ваши данные.
-Дайте нам немного времени передохнуть"""
+"""Aliens tried to steal your CVV code, but we successfully protected your data.
+Please give us a moment to recover."""
